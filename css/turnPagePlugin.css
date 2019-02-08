@@ -1,0 +1,47 @@
+#turnPage .film-box {
+    position: relative;
+    overflow: hidden;
+}
+#turnPage .film{
+    position: absolute;
+    left: 0;
+}
+#turnPage .film li {
+    float: left;
+}
+#turnPage .film li img {
+    width: 100%;
+    height: 100%;
+}
+#turnPage .film-box .btn {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: #ff0;
+    cursor: pointer;
+    opacity: 0.5;
+    display: none;
+}
+#turnPage .film-box .left-btn{
+    border-radius: 0 30% 30% 0;
+    left: 10px;
+}
+#turnPage .film-box .right-btn{
+    border-radius: 25% 0 0 25%;
+    right: 10px;
+}
+#turnPage .film-box .index-box{
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    text-align: center;
+}
+#turnPage .film-box .index-box span{
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+}
+#turnPage .film-box .index-box span.active{
+	background-color: #0ff;
+}

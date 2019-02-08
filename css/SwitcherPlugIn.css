@@ -1,0 +1,144 @@
+#switcher1,
+#switcher2 {
+    position: relative;
+ }
+#switcher1 .header ul,
+#switcher2 .header ul{
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 17px;
+ }
+#switcher1 .header ul .choose,
+#switcher2 .header ul .choose{
+     float: left;
+ }
+#switcher1 .header ul .choose::before,
+#switcher2 .header ul .choose::before {
+     content: '|';
+     padding: 0 3px;
+     color: #222;
+ }
+#switcher1 .header ul .choose a,
+#switcher2 .header ul .choose a{
+     float: left;
+     font-size: 13px;
+     color: #999;
+ }
+#switcher1 .header ul .choose a:hover,
+#switcher2 .header ul .choose a:hover {
+     text-decoration: underline;
+     color: #138A64;
+ }
+#switcher1 .header ul .choose a.active,
+#switcher2 .header ul .choose a.active{
+     font-weight: bold;
+     color: #138A64;
+ }
+#switcher1 .header .more,
+#switcher2 .header .more{
+     float: right;
+     font-size: 14px;
+     color: #999;
+ }
+#switcher1 .header .more:hover,
+#switcher2 .header .more:hover{
+     background-color: #999;
+     color: #fff;
+ }
+#switcher1 .albums-content{
+     position: absolute;
+     background: #F5F7F8;
+     font-size: 0;
+     padding: 15px 0 15px 30px;
+     display:none;
+ }
+#switcher1 .albums-content.active{
+     display: block;
+ }
+#switcher1 .albums-content .albums-item {
+     width: 25%;
+     display: inline-block;
+ }
+#switcher1 .albums-content .albums-item .title {
+     display: inline-block;
+     font-size: 15px;
+     color: #138A64;
+     line-height: 14px;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     max-width: 100%;
+     background: transparent;
+     margin: 14px 0 6px 0;
+     padding: 0;
+ }
+#switcher1 .albums-content .albums-item .title:hover{
+     background-color: #138A64;
+     color: #fff;
+ }
+#switcher1 .albums-content .albums-item p {
+     font-size: 13px;
+     color: #999;
+     line-height: 12px;
+     margin-bottom: 2px;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+ }
+#switcher1 .albums-content .albums-item .star{
+     width: 135px;
+     height: 14px;
+     margin-top: 6px;
+ }
+#switcher2 .hot-content{
+    display: none;
+    font-size: 0px;
+    background-color: #F5F7F8;
+    padding: 15px 0 15px 30px;
+}
+#switcher2 .hot-content.active{
+    display: block;
+}
+#switcher2 .hot-content .hot-item {
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 50%;
+    display: inline-block;
+    padding: 0 15px 15px 0;
+}
+#switcher2 .hot-content .hot-item .inner {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #eee;
+    padding: 16px 13px 16px 63px;
+    font-size: 14px;
+    color: #666;
+    line-height: 19px;
+}
+#switcher2 .hot-content .hot-item .inner .cover{
+    position: absolute;
+    top: 14px;
+    left: 14px;
+}
+#switcher2 .hot-content .hot-item .inner h3 a{
+    font-size: 15px;
+    color: #138a64;
+    line-height: 15px;
+    white-space: nowrap;
+}
+#switcher2 .hot-content .hot-item .inner h3 a:hover{
+    background-color: #13864a;
+    color: #fff;
+}
+#switcher2 .hot-content .hot-item .inner .desc{
+    font-size: 13px;
+    color: #999;
+    line-height: 13px;
+    margin: 13px 0;
+}
+#switcher2 .hot-content .hot-item .inner .intro {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 19px;
+}

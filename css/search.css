@@ -1,0 +1,61 @@
+#search form{
+    font-size: 0;
+    width: 100%;
+    height: 100%;
+}
+#search .search{
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 89%;
+    height: 100%;
+}
+#search .btn{
+    box-sizing: border-box;
+    width: 8%;
+    height: 100%;
+    background: url(../img/nav_mu_bg.png) no-repeat 0 -40px;
+}
+#search .search-info {
+    position: absolute;
+    width: 90%;
+    left: 0px;
+    top: 100%;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    z-index: 100;
+    background-color: #fff;
+}
+#search .search-info .item {
+    box-sizing: border-box;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    height: 100%;
+}
+#search .search-info .item a{
+    display: block;
+    font-size: 14px;
+    color: #333;
+}
+#search .search-info .item a:hover{
+    background-color: #eee;
+}
+#search .search-info .cover{
+    display: inline-block;
+    width: 60px;
+    height: 50px;
+    background: #abc;
+}
+#search .search-info .cover img{
+    vertical-align: top;
+    width: 100%;
+    height:100%;
+}
+#search .search-info .desc {
+    margin-left: 20px;
+}
+#search .search-info .desc::after{
+    content: '(音乐人)';
+    font-size: 14px;
+    color: #999;
+}
